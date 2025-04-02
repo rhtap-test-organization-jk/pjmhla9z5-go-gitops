@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: pjmhla9z5-go-repository
+spec:
+  url: https://github.com/rhtap-test-organization-jk/pjmhla9z5-go
