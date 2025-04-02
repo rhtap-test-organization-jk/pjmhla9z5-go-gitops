@@ -37,7 +37,7 @@ pipeline {
         /* Set when using Jenkins on non-local cluster and using an external TUF instance */
         /* TUF_MIRROR = credentials('TUF_MIRROR') */
         /* Set this to the user for your specific registry */
-        /* IMAGE_REGISTRY_USER = credentials('IMAGE_REGISTRY_USER') */
+        IMAGE_REGISTRY_USER = credentials('IMAGE_REGISTRY_USER')
         TRUSTIFICATION_OIDC_CLIENT_SECRET = credentials('TRUSTIFICATION_OIDC_CLIENT_SECRET')
         /* Set this password for your specific registry */
         /* IMAGE_REGISTRY_PASSWORD = credentials('IMAGE_REGISTRY_PASSWORD') */
